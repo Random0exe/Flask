@@ -14,4 +14,4 @@ def index():
     return render_template('index.html', weapon=weapon, shield=shield, bullets=bullets)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
